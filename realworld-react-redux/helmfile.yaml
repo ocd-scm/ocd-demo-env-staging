@@ -9,4 +9,4 @@ releases:
     version: ~1.0.0
     values:
       - "values.yaml"
-      - imageStreamTag: 172.30.1.1:5000/build-env/realworld-react-redux:v0.0.9
+      - imageStreamTag: realworld-react-redux:v0.0.9
