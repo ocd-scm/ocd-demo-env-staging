@@ -2,9 +2,9 @@ repositories:
   - name: ocd-meta 
     url: https://ocd-scm.github.io/ocd-meta/charts
 releases:
-  - name: {{ requiredEnv "ENV" }}-realworld-react-redux
+  - name: {{ requiredEnv "ENV_PREFIX" }}-realworld-react-redux
     labels: 
-      deployer: {{ requiredEnv "ENV" }}-realworld-react-redux
+      deployer: {{ requiredEnv "ENV_PREFIX" }}-realworld-react-redux
     chart: ocd-meta/ocd-deployer
     version: ~1.0.0
     values:
