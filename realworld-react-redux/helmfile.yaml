@@ -10,3 +10,4 @@ releases:
     values:
       - "values.yaml"
       - imageStreamTag: realworld-react-redux:v0.0.9
+      - replicas: 1
