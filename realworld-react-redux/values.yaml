@@ -1,0 +1,4 @@
+name: realworld-react-redux
+deploy_env: 
+  - name: API_ROOT
+    value: https://conduit.productionready.io/api
