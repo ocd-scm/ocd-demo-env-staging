@@ -10,7 +10,7 @@ releases:
     values:
       - "values.yaml"
       - replicas: 1
-      - imageStreamTag: "v0.0.2"
+      - imageStreamTag: "realworld-react-redux:v0.0.2"
     hooks:
     # FROM, TO, IMAGE, TAG
     - events: ["prepare"]
