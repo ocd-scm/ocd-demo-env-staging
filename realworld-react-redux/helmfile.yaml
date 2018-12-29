@@ -14,4 +14,4 @@ releases:
     # FROM, TO, IMAGE, TAG
     - events: ["prepare"]
       command: "ocd-promote-imagestreamtag.sh"
-      args: ["build-env", "staging-env", "realworld-react-redux", "v0.0.2"]
+      args: ["env-build", "env-staging", "realworld-react-redux", "v0.0.2"]
