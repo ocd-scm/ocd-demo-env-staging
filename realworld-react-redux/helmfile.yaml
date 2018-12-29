@@ -11,6 +11,7 @@ releases:
       - "values.yaml"
       - replicas: 1
     hooks:
+    # FROM, TO, IMAGE, TAG
     - events: ["prepare"]
       command: "ocd-promote-imagestreamtag.sh"
-      args: ["build-env", "$PROJECT", "{{`{{.Environment.Name}}`}}", "realworld-react-redux", "v0.0.9"]
+      args: ["build-env", "staging-env", "realworld-react-redux", "v0.0.9"]
