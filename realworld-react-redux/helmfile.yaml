@@ -10,9 +10,9 @@ releases:
     values:
       - "values.yaml"
       - replicas: 1
-      - imageStreamTag: "realworld-react-redux:v0.0.3"
+      - imageStreamTag: "realworld-react-redux:v0.0.2"
     hooks:
     # FROM, TO, IMAGE, TAG
     - events: ["prepare"]
       command: "ocd-promote-imagestreamtag.sh"
-      args: ["env-build", "env-staging", "realworld-react-redux", "v0.0.3"]
+      args: ["your-eng", "your-staging", "realworld-react-redux", "v0.0.2"]
