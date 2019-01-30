@@ -10,7 +10,7 @@ releases:
     values:
       - "values.yaml"
       - replicas: 1
-      - imageStreamTag: "realworld:v0.0.2"
+      - imageStreamTag: "realworld:v0.0.9"
     hooks:
     # FROM, TO, IMAGE, TAG
     - events: ["prepare"]
