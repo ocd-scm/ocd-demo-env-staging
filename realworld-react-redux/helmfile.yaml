@@ -15,4 +15,4 @@ releases:
     # FROM, TO, IMAGE, TAG
     - events: ["prepare"]
       command: "ocd-promote-imagestreamtag.sh"
-      args: ["your-eng", "your-live", "realworld", "v0.0.9"]
+      args: ["your-eng", "your-staging", "realworld", "v0.0.9"]
