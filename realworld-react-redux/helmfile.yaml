@@ -6,7 +6,7 @@ releases:
     labels: 
       deployer: {{ requiredEnv "ENV_PREFIX" }}-realworld
     chart: ocd-meta/ocd-deployer
-    version: ~1.0.0
+    version: "1.0.0-M1"
     values:
       - "values.yaml"
       - replicas: 1
